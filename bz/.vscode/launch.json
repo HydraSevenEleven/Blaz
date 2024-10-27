@@ -22,7 +22,9 @@
                 "killOnServerStop": false
             },
             "env": {
-                "ASPNETCORE_ENVIRONMENT": "Development"
+                "ASPNETCORE_ENVIRONMENT": "Development",
+                "HTTP_PORT":"8080",
+                "HTTPS_PORT":"8080"
             },
             "sourceFileMap": {
                 "/app": "${workspaceFolder}"
